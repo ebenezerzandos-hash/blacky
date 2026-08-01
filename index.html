@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Welcome</title>
+
+<style>
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    margin:0;
+    font-family:Arial,sans-serif;
+    background:linear-gradient(135deg,#1e3c72,#2a5298);
+    color:white;
+    text-align:center;
+}
+
+/* Halaman Welcome */
+.home{
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+h1{
+    font-size:60px;
+    margin-bottom:50px;
+}
+
+button{
+    padding:15px 35px;
+    font-size:20px;
+    border:none;
+    border-radius:12px;
+    background:#00cfff;
+    color:white;
+    cursor:pointer;
+    transition:.3s;
+}
+
+button:hover{
+    background:#0099cc;
+    transform:scale(1.08);
+}
+
+/* Galeri */
+#galeri{
+    margin-top:1200px;
+    padding-bottom:80px;
+}
+
+#galeri h2{
+    font-size:40px;
+    margin-bottom:40px;
+}
+
+img{
+    width:300px;
+    border-radius:20px;
+    margin-bottom:40px;
+    box-shadow:0 0 25px rgba(0,0,0,.5);
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="home">
+
+<h1>Welcome</h1>
+
+<button onclick="location.href='#galeri'">
+Lihat Foto
+</button>
+
+</div>
+
+<div id="galeri">
+
+<h2>Galeri Foto</h2>
+
+<img src="foto1.jpeg" alt="Foto 1"><br>
+
+<img src="foto2.jpeg" alt="Foto 2"><br>
+
+<img src="foto3.jpeg" alt="Foto 3"><br>
+
+<img src="foto4.jpeg" alt="Foto 4"><br>
+
+<img src="foto5.jpeg" alt="Foto 5"><br>
+
+</div>
+
+</body>
+</html>
